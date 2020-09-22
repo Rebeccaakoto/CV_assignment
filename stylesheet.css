@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: url(cv2.jpg.jpg);
+    background-size:cover ;
+    text-align: justify;
+    height: 100vh;  
+}
+.container{
+    margin: 0%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width:100% ;
+    padding: 0 20px;
+}
+ 
+.form{
+    max-width: 350px;
+    margin:  0 auto;
+    background: rgba(50, 70,0, 0.8);
+    padding: 30px;
+    border-radius: 5px;
+    display: flex; 
+    box-shadow: 0 0 10px rgba(50, 70,0, 0.8);
+
+}
+.input-fields{
+    display: flex;
+    flex-direction: row;
+    margin-right: 4%;
+}
+@media screen and (max-width:600px){
+    .container{
+        flex-direction: column;
+    }
+    
+}
+.title{
+    width: 800px;
+    background-color:gainsboro;
+    margin: auto;
+    margin-top: 50px;
+    color: seagreen;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px;
+
+}
+.fixed{
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+
+}
+ul{
+    padding:0;
+    list-style:none;
+}
+p{
+    margin: 0;
+    padding:0;
+}
